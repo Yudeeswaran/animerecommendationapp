@@ -1,0 +1,105 @@
+name: anime_recommendations_app
+description: Anime recommendations app
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 0.4.2+19
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2  
+  http: ^0.13.3
+  cupertino_icons: 1.0.8
+  shared_preferences: 2.3.2
+  mobx: 2.3.3+2
+  flutter_mobx: 2.2.1+1
+  sembast: 3.7.3+2
+  path_provider: 2.1.4
+  xxtea: 2.1.0
+  provider: 6.1.2
+  validators: 3.0.0
+  dio: 5.6.0
+  another_flushbar: 1.12.30
+  material_dialog: 1.0.0-nullsafety.1
+  intl: 0.19.0
+  curved_navigation_bar: 1.0.6
+  url_launcher: 6.3.0
+  string_similarity: 2.1.1
+  html: 0.15.4
+  flutter_inappwebview: 6.0.0
+  share_plus: 10.0.2
+  json_annotation: 4.9.0
+
+dev_dependencies:
+  analyzer: 6.7.0
+  json_serializable: 6.8.0
+
+  flutter_test:
+    sdk: flutter
+
+  # The following adds the launcher icon support to your application.
+  # run below mentioned commands to generate launcher icons
+  # flutter packages get
+  # flutter packages pub run flutter_launcher_icons:main
+  flutter_launcher_icons: 0.13.1
+  mobx_codegen: 2.6.1
+  build_runner: 2.4.12
+
+dependency_overrides:
+  webview_flutter_android: 3.16.1
+
+flutter_icons:
+  image_path: "assets/icons/ic_launcher.png"
+  android: true
+  ios: true
+
+
+# For information on the generic Dart art of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/lang/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/Product-Sans-Regular.ttf
+        - asset: assets/fonts/Product-Sans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Product-Sans-Bold.ttf
+          weight: 700
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

@@ -1,0 +1,1 @@
+ D:\\anime_recomendations_app\\.dart_tool\\flutter_build\\773f653e3a07ddeb738afe574da571bb\\native_assets.yaml: 

@@ -1,0 +1,28 @@
+^D:\ANIME_RECOMENDATIONS_APP\BUILD\WINDOWS\X64\CMAKEFILES\F87B657ED6C4A882E2AAC2C3B62B5111\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\HP\flutter PROJECT_DIR=D:\anime_recomendations_app FLUTTER_ROOT=C:\Users\HP\flutter FLUTTER_EPHEMERAL_DIR=D:\anime_recomendations_app\windows\flutter\ephemeral PROJECT_DIR=D:\anime_recomendations_app FLUTTER_TARGET=D:\anime_recomendations_app\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\anime_recomendations_app\.dart_tool\package_config.json C:/Users/HP/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ANIME_RECOMENDATIONS_APP\BUILD\WINDOWS\X64\CMAKEFILES\6419510D5F42B71400DE7843F322B7C5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ANIME_RECOMENDATIONS_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/anime_recomendations_app/windows -BD:/anime_recomendations_app/build/windows/x64 --check-stamp-file D:/anime_recomendations_app/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
